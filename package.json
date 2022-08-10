@@ -1,9 +1,13 @@
 {
   "name": "maps",
   "version": "1.0.0",
-  "main": "src/index.ts",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
   "devDependencies": {
+    "@faker-js/faker": "^7.4.0",
     "parcel": "^2.7.0"
-  }
+  },
+  "dependencies": {}
 }
